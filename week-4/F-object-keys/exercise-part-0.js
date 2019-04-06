@@ -20,10 +20,8 @@ var highScores = {
 
 // ONLY EDIT BELOW HERE
 
-var capitalCities = object.keys(capitalCities);
-var highScores = object.keys(highScores);
-console.log(object.keys(capitalCities));
-console.log(object.keys(highScores));
+var capitalCitiesKeys = Object.keys(capitalCities);
+var highScoresKeys = Object.keys(highScores);
 
 // ONLY EDIT ABOVE HERE
 

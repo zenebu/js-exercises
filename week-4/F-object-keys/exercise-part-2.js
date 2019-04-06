@@ -33,14 +33,14 @@ var storeBranches = {
 
 // # 1
 // prints [ 'glasgow', 'edinburgh' ]
-console.log(object.keys(storeBranches));
+console.log(Object.keys(storeBranches));
 
 // # 2
 // prints [ 'manager', 'assistant', 'interns' ]
-console.log(object.keys(storeBranches.glasgow));
+console.log(Object.keys(storeBranches.glasgow));
 
 // # 3
 // prints [ 'head_intern', 'intern' ]
-console.log(object.keys(storeBranches.glasgow.interns));
+console.log(Object.keys(storeBranches.glasgow.interns));
 
 // ONLY EDIT ABOVE THIS LINE
