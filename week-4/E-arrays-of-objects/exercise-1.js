@@ -24,18 +24,16 @@ DO NOT EDIT ANYTHING ABOVE THIS LINE
 WRITE YOUR CODE BELOW
 */
 
-var persons = [person1, person2.person3];
+var persons = [person1, person2, person3];
+function getName(persons) {
+  return persons.name;
+}
+var personNames = persons.map(getName);
 
-var personNames = function getName(personNames) { // Complete herefunction getName(person){
-  return getName.personNames;
-};
-persons.map(personNames);
-
-var personsYoungerThan28YearsOld = function personsYoungerThan28YearsOld( // Complete here
-  person
-) {
-  return person.YearsOld <= 28;
-};
+function personsYoungerThan28YearsOld(persons) {
+  return persons.age < 28;
+}
+var personsYoungerThan28YearsOld = persons.filter(personsYoungerThan28YearsOld);
 
 /*
 DO NOT EDIT ANYTHING BELOW THIS LINE

@@ -45,7 +45,7 @@ WRITE YOUR CODE BELOW
 
 var destinationNamesWithin500Kms = travelDestinations
   .filter(function(element) {
-    return element.distanceKms <= 500 ? true : false;
+    return element.distanceKms <= 500;
   })
   .map(function(element) {
     return element.destinationName;
